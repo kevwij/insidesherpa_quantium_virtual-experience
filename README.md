@@ -32,7 +32,6 @@ Conduct analysis on client's transaction dataset and identify customer purchasin
 
 #### Insights:
 - Top 3 total sales contributor segment are
-
   - Older families (Budget) $156,864
   - Young Singles/Couples (Mainstream) $147,582
   - Retirees (Mainstream) $145,169
