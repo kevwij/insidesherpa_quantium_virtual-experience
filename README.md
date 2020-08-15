@@ -21,9 +21,14 @@ Conduct analysis on client's transaction dataset and identify customer purchasin
 - Value counted each first word in "PROD_NAME" column to extract brand name. Combined brands written in multiple ways. Created new column "Cleaned_Brand_Names".
 
 #### Data Analysis on Customer Segments:
-- Groupby sum TOT_SALES column and identified top 3 highest total sales contributing segments.
-- 
-
+- Groupby sum TOT_SALES column and identified top 3 highest total sales contributing segments. (Older families-Budget, Young Singles/Couples-Mainstream, Retirees-Mainstream)
+- Plot the groupby into stacked bar chart with percentage text on each segment stack.
+![Total Sales by Segment](https://raw.githubusercontent.com/kevwij/insidesherpa_quantium_virtual-experience/master/graphs/lifestage_sales.png)
+- Groupby nunique to find number of unique customers in each segment. Found high sales amount by segment "Young Singles/Couples - Mainstream" and "Retirees - Mainstream" are due to their large number of unique customers
+- Used p-value calculation and found statistically significant TOT_SALES difference (pval < 5%) between "Mainstream Young Midage" to "Budget and Premium Young Midage" segment.
+- Divided groupby sum to groupby nunique to get average amount of chips bought per customer segment.
+- Unstacked the groupby and plotted it by segment:
+![Avg chips per customer](https://raw.githubusercontent.com/kevwij/insidesherpa_quantium_virtual-experience/master/graphs/Average%20purchase%20quantity%20per%20segment.png)
 
 ---
 
