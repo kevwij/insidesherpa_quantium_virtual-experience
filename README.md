@@ -23,12 +23,12 @@ Conduct analysis on client's transaction dataset and identify customer purchasin
 #### Data Analysis on Customer Segments:
 - Groupby sum TOT_SALES column and identified top 3 highest total sales contributing segments. (Older families-Budget, Young Singles/Couples-Mainstream, Retirees-Mainstream)
 - Plot the groupby into stacked bar chart with percentage text on each segment stack.
-![Total Sales by Segment](https://raw.githubusercontent.com/kevwij/insidesherpa_quantium_virtual-experience/master/graphs/lifestage_sales.png)
+![Total Sales by Segment](/graphs/lifestage_sales.png)
 - Groupby nunique to find number of unique customers in each segment. Found high sales amount by segment "Young Singles/Couples - Mainstream" and "Retirees - Mainstream" are due to their large number of unique customers
 - Used p-value calculation and found statistically significant TOT_SALES difference (pval < 5%) between "Mainstream Young Midage" to "Budget and Premium Young Midage" segment.
 - Divided groupby sum to groupby nunique to get average amount of chips bought per customer segment. Older and Young Families bought the highest average amount of chips.
 - Unstacked the groupby and plotted it by segment:
-![Avg chips per customer](https://raw.githubusercontent.com/kevwij/insidesherpa_quantium_virtual-experience/master/graphs/Average%20purchase%20quantity%20per%20segment.png)
+![Avg chips per customer](/graphs/Average%20purchase%20quantity%20per%20segment.png)
 
 #### Insights:
 - Top 3 total sales contributor segment are
@@ -57,9 +57,9 @@ Extend analysis from Task 1 to help identify benchmark stores to test the impact
 - Next phase is to assess trial store's performance compared to control store's scaled performance (scaled control store's performance to match trial store's). Used t-value to check if each trial and control store's percentage difference is statistically significant during the trial phase compared to the percentage difference during pre-trial phase.\
 \
 Total Sales comparison:
-![Tot_sales trial vs control](https://github.com/kevwij/insidesherpa_quantium_virtual-experience/blob/master/graphs/TOT_SALES%20compare.png?raw=true)
+![Tot_sales trial vs control](/graphs/TOT_SALES%20compare.png?raw=true)
 Number of Customers comparison:
-![nCustomers trial vs control](https://github.com/kevwij/insidesherpa_quantium_virtual-experience/blob/master/graphs/nCustomers%20compare.png?raw=true)
+![nCustomers trial vs control](/graphs/nCustomers%20compare.png?raw=true)
 - Conclusion: Trial store 77 and 86 had significant increase in total sales and number of customers during trial compared to control store. Trial store 88 had increases as well but insignificant.
 
 ---
